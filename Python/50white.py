@@ -10,30 +10,19 @@ they would like to use their printing credits.
 import argparse
 import copy
 import os
+import sys
 import cv2
 import numpy as np
 
+
 def parse_args():
-    parser = argparse.ArgumentParser(description="cse 473/573 project 1.")
+    parser = argparse.ArgumentParser(description="50% whitespace detector")
     parser.add_argument(
         "--img-path",
         type=str,
-        default="./data/proj1-task1.jpg",
+        dest="img_path",
+        default=".TestImgs/50h.png",
         help="path to the image"
-    )
-    parser.add_argument(
-        "--filter",
-        type=str,
-        default="high-pass",
-        choices=["low-pass", "high-pass"],
-        help="type of filter"
-    )
-    parser.add_argument(
-        "--result-saving-dir",
-        dest="rs_dir",
-        type=str,
-        default="./results/",
-        help="directory to which results are saved (do not change this arg)"
     )
     args = parser.parse_args()
     return args
@@ -44,10 +33,8 @@ def read_image(img_path, show=False):
     img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
     if not img.dtype == np.uint8:
         pass
-
     if show:
         show_image(img)
-
     img = [list(row) for row in img]
     return img
 
@@ -79,21 +66,19 @@ def findWhite(img):
     height = len(img[0])
     dim = width*height
     white_count = 0
-    for col in img:
-        white_count += col.count(1)
-    return white_count/dim
+    for i in range(len(img)):
+        white_count += (img[i]).count(255)
+        print("Progress:", ((i/width) * 100))
+    return (white_count/dim) * 100
 
 
 def main():
     args = parse_args()
-
+    if not os.path.exists(args.img_path):
+        print("Invalid image path:", args.img_path)
+        sys.exit()
     img = read_image(args.img_path)
-
-    if not os.path.exists(args.rs_dir):
-        os.makedirs(args.rs_dir)
-
     calculated = findWhite(img)
-
     print(calculated)
 
 
