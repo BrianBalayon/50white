@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8d5f1c2-0338-4d06-96e5-ef97c5bf37c9" name="Default" comment="">
+    <list default="true" id="b8d5f1c2-0338-4d06-96e5-ef97c5bf37c9" name="Default" comment="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/50white.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/50white.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/TestImgs/realQuarters.png" beforeDir="false" afterPath="$PROJECT_DIR$/Python/TestImgs/realQuarters.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectId" id="1RhSt6NKPjvhpeVVJL9QjSN6YON" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -173,6 +177,21 @@
       <updated>1542384096463</updated>
       <workItem from="1542384105284" duration="7513000" />
     </task>
+    <task id="LOCAL-00001" summary="Added tester image files, small ones for testing and already printed flyers that pass">
+      <created>1570124747249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570124747249</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling.">
+      <created>1570124850556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570124850556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -193,6 +212,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added tester image files, small ones for testing and already printed flyers that pass" />
+    <MESSAGE value="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling." />
   </component>
   <component name="masterDetails">
     <states>
