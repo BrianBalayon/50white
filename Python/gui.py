@@ -1,23 +1,27 @@
 import tkinter as tk
 from tkinter import filedialog
+import percentCalc
 
-# Starts
-root = tk.Tk()
 
-root.title = "Whitespace Detector"
+def start_ui():
+    root = tk.Tk()
+    root.title = "Whitespace Detector"
+    choose_btn = tk.Button(root, text='Choose File', command=choose_file(root))
+    choose_btn.pack()
+    # calc_btn = tk.Button(root, text="Calculate Whitespace", command=percentCalc.calc(root.filename))
+    # calc_btn.pack()
 
-# Opens file selection dialogue
-# Variable store the full path of the image
-root.filename = filedialog.askopenfilename(initialdir = "/",
-                                        title = "Select file",
-                                        filetypes = (("jpeg files","*.jpg"),
-                                                     ("pdf files","*.pdf"),
-                                                     ("png files","*.png"),
-                                                     ("all files","*.*"))
-                                        )
-print(root.filename)
-# button = tk.Button(r, text='Stop', width=25, command=r.destroy)
-# button.pack()
+    # Causes window to stay open until close
+    root.mainloop()
 
-# Causes window to stay open until cose
-root.mainloop()
+
+def choose_file(ui):
+    # Opens file selection dialogue
+    # Variable store the full path of the image
+    ui.filename = filedialog.askopenfilename(initialdir="/",
+                                             title="Select file",
+                                             filetypes=(("jpeg files", "*.jpg"),
+                                                        ("pdf files", "*.pdf"),
+                                                        ("png files", "*.png"),
+                                                        ("all files", "*.*"))
+                                             )

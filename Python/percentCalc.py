@@ -27,6 +27,11 @@ def parse_args():
     args = parser.parse_args()
     return args
 
+def calc(img_path):
+    read_img = read_image(img_path)
+    percent = findWhite(read_img)
+    return percent
+
 
 def read_image(img_path, show=False):
     """Reads an image into memory as a grayscale array."""
