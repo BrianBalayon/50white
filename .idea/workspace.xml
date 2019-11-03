@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8d5f1c2-0338-4d06-96e5-ef97c5bf37c9" name="Default" comment="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/driver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
