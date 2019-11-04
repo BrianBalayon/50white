@@ -28,8 +28,7 @@ def choose_file():
                                                         ("png files", "*.png"),
                                                         ("all files", "*.*"))
                                              )
-    print(_root.filename)
-    _txt_box.insert('1.0', ("File chosen: " + _root.filename))
+    _txt_box.insert('1.0', ("File chosen: " + _root.filename + "\n \n"))
 
 
 def update_text(s):
