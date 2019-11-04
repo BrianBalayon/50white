@@ -74,8 +74,8 @@ def findWhite(img):
     white_count = 0
     for i in range(len(img)):
         white_count += (img[i]).count(255)
-        gui.update_text("Progress:" + str((i/width) * 100) + "\n")
-    gui.update_text(str((white_count/dim) * 100) + "% white \n")
+        # gui.update_text("Progress:" + str((i/width) * 100) + "\n")
+    gui.update_text(str((white_count/dim) * 100) + "% white \n \n \n")
 
 
 def main():

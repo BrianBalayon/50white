@@ -9,7 +9,7 @@ _calc_btn = tk.Button(_root, text="Calculate Whitespace", height=2, width=30,
                       command=lambda: percentCalc.calc(_root.filename))
 
 def start_ui():
-    _root.title = "Whitespace Detector"
+    _root.title("Whitespace Detector")
     _txt_box.insert(tk.END, "Please choose a file first")
     _txt_box.pack()
     _choose_btn.pack()
