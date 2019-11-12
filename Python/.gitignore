@@ -1,0 +1,5 @@
+./build/
+./dist/
+driver.spec
+gui.pyc
+percentCalc.pyc
