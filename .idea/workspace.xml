@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8d5f1c2-0338-4d06-96e5-ef97c5bf37c9" name="Default" comment="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling.">
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/warn-driver.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/build/driver/xref-driver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/dist/driver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/driver.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b8d5f1c2-0338-4d06-96e5-ef97c5bf37c9" name="Default" comment="Added tester image files, small ones for testing and already printed fliers that pass the 50% rule by a significant margin. Also added incorrect file path handling." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
